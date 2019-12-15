@@ -1,0 +1,32 @@
+#left{
+	position: fixed-left;
+	background:#283643 ;
+	width:12rem;
+	height:40rem;
+	margin-top:3.5rem;
+	padding-top:1rem ;
+	margin-bottom: 0;
+}
+ul{
+	list-style: none;
+}
+li a{
+	color:#fff;
+	padding:2rem 0;
+	height:3rem;
+	line-height:3rem;
+}
+ li:hover{
+background: #3c4248;
+}
+#right{
+	margin-top:55px;
+	width:1500px;
+}
+td{
+	color:#6c757d;
+}
+p{
+	color:#6c757d;
+}
+

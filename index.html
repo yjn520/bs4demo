@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,  initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>首页</title>
+</head>
+  <body>
+    <!-- 导航 -->
+  <nav class="navbar fixed-top navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">某管理系统</a>
+    <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          用户操作
+          </button>
+      <div class="dropdown-menu">
+        <button class="dropdown-item" type="button">个人中心</button>
+        <div class="dropdown-divider"></div>
+        <button class="dropdown-item" type="button">退出</button>
+      </div>
+    </div>
+  </nav>
+  <!-- 左侧导航  -->
+  <div class="d-flex  ">
+    <div id="left">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="user.html">用户中心</a></li>
+        <li><a href="search.html">数据查询</a></li>
+        <li><a href="data.html">数据面板</a></li>
+        <li><a href="tip.html">提醒事项</a><span class="badge badge-pill badge-warning ml-3">4</span></li>
+      </ul>
+    </div>
+  <!-- 右侧主体 -->
+    <div id="right">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active">首页</li>
+      </ol>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+              <div class="card text-light bg-success mb-3" style="max-width: 20rem;">
+                <div class="card-header">当前用户总数</div>
+                  <div class="card-body">
+                    <h1 class="card-title display-3">120,123</h1>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-light bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">每日平均活跃用户数</div>
+                  <div class="card-body">
+                    <h1 class="card-title display-3">1,123</h1>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-light bg-warning mb-3" style="max-width: 20rem;">
+                <div class="card-header">每日平均访问次数</div>
+                  <div class="card-body">
+                    <h1 class="card-title display-3">3,123</h1>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
